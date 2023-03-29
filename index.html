@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JULIANA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1>Quer namorar comigo, Juliana?</h1>
+			<h2>Será que você aceita ser minha namorada?</h2>
+		</header>
+
+		<main>
+			<p>Olá, minha linda. Eu queria te dizer que você é muito especial para mim e que eu adoro passar tempo com você. Eu gostaria muito de ter a chance de namorar com você e de te fazer feliz todos os dias. Então, o que você acha?</p>
+			
+			<form>
+				<button type="button" class="sim" onclick="confirmar()">Sim</button>
+				<button type="button" class="nao" onclick="alert('Ah, que pena... Mas tudo bem, podemos continuar como amigos.')">Não</button>
+			</form>
+			  
+		</main>
+        <div class="heart">
+			<i class="fas fa-heart"></i>
+		</div>
+		  
+		  
+		<footer>
+			<p>Feito com ❤️ por <a href="C:\Users\eduar\Desktop\JU\IMG_20230327_175625_451.webp">ÂNGELO</a></p>
+			<div class="heartt"></div>
+		</footer>
+
+	</div>
+
+    <script>
+		function confirmar() {
+			if (confirm("Que bom que você aceitou! Vamos namorar!")) {
+				window.location.href = "pagina2.html";
+			}
+		}
+	</script>
+	<script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e15fd4f095.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>
