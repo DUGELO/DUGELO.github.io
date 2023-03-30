@@ -110,22 +110,7 @@ footer {
 	}
   }
 
-.fotosss {
-  height: 300px;
-}
-
-.image1, .image2 {
-  display: inline-block;
-  width: 45%;
-  height: 100%;
-  margin-right: 5%;
-}
-
-.image2 {
-  margin-right: 0;
-}
-
-
 .txt1 {
        text-align: center;
+       border: 2px solid #f7e4e4;
 }
