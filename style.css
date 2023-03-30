@@ -114,15 +114,6 @@ footer {
 	}
   }
 
-.imagecon {
-       height: 500px; /* altura desejada */
-       display: inline-block;
-       margin: 0 auto;
-       display: inline-block;
-       vertical-align: middle;
-       text-align: center;
-}
-
 .txt {
        font-family: Times New Roman;
        font-size: 20px;
