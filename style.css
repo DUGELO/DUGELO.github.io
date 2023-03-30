@@ -110,17 +110,21 @@ footer {
 	}
   }
 
-.image1 {
-       width: 50%;
-       height: 50%;
-       margin: 5%, 95%, 0, 5%
+.fotosss {
+  height: 300px;
+}
+
+.image1, .image2 {
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  margin-right: 5%;
 }
 
 .image2 {
-       width: 50%;
-       height: 50%;
-       margin: 5%, 5%, 0, 95%
+  margin-right: 0;
 }
+
 
 .txt1 {
        text-align: center;
