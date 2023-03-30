@@ -70,7 +70,7 @@ button:hover {
 footer {
 	text-align: center;
 	font-size: 14px;
-	color: #555;
+	color: #555;r
 	margin-top: 30px;
 	position: relative;
 }
@@ -111,28 +111,30 @@ footer {
   }
 
 .image {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 45%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	
+  text-align: center;
+  font-size: 0; /* remove o espaço em branco entre as imagens */
+}
+
+.image img {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 5px; /* adiciona um espaço entre as imagens */
 }
 
 .image img:first-child {
-  margin-right: 5%;
+  margin-left: 0; /* remove a margem esquerda da primeira imagem */
 }
 
 .image img:last-child {
-  margin-left: 5%;
+  margin-right: 0; /* remove a margem direita da última imagem */
 }
 
 .txt {
          font-family: Arial, sans-serif;
-         font-size: 16px;
-         line-height: 1.5;
+         font-size: 20px;
          color: #333;
 	 max-width: 600px;
          margin: 0 auto;
