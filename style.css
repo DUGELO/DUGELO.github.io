@@ -110,9 +110,14 @@ footer {
 	}
   }
 
-.imageecon {
+.image1 {
        width: 50%;
        height: 50%
+}
+
+.image2 {
+       width: 50%;
+       height: 50%;
 }
 
 .txt1 {
