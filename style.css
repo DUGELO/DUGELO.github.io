@@ -118,18 +118,10 @@ footer {
 .image img {
   display: inline-block;
   width: 45%;
-  height: auto;
+  height: 45%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin: 0 5px; /* adiciona um espaço entre as imagens */
-}
-
-.image img:first-child {
-  margin-left: 0; /* remove a margem esquerda da primeira imagem */
-}
-
-.image img:last-child {
-  margin-right: 0; /* remove a margem direita da última imagem */
+  margin: 0 5px 0 5px;
 }
 
 .txt {
