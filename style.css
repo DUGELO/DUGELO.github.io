@@ -112,12 +112,14 @@ footer {
 
 .image1 {
        width: 50%;
-       height: 50%
+       height: 50%;
+       margin: 5%, 95%, 0, 5%
 }
 
 .image2 {
        width: 50%;
        height: 50%;
+       margin: 5%, 5%, 0, 95%
 }
 
 .txt1 {
