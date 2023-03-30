@@ -109,3 +109,34 @@ footer {
 	  transform: scale(1);
 	}
   }
+
+.image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	
+}
+
+.image img:first-child {
+  margin-right: 5%;
+}
+
+.image img:last-child {
+  margin-left: 5%;
+}
+
+.txt {
+         font-family: Arial, sans-serif;
+         font-size: 16px;
+         line-height: 1.5;
+         color: #333;
+	 max-width: 600px;
+         margin: 0 auto;
+         padding: 20px;
+         border: 2px solid #ccc;
+         border-radius: 10px;
+}
