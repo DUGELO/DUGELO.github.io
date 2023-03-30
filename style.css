@@ -117,7 +117,7 @@ footer {
 }
 
 .imagecon img {
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
