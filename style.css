@@ -109,3 +109,13 @@ footer {
 	  transform: scale(1);
 	}
   }
+
+.imageecon {
+       display: inline-block;
+       width: 50%;
+       height: 50%
+}
+
+.txt1 {
+       text-align: center;
+}
